@@ -1,0 +1,18 @@
+<div id="carouselExample" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class ="carousel-caption logo">
+                <img src="assets/Logo.png">
+            </div>
+            <img class="d-block w-100 back-img" src="{{bannerPhoto}}" alt="First slide" height="350px">
+            <div class="carousel-caption input-bar">
+                <input type="text" [(ngModel)]="bannerSearch" placeholder="Search photos, videos, artists" />
+                <button (click)="searchData()">SEARCH</button>
+            </div>
+            <div  class="carousel-caption cap-heading">
+                <h3>Discover the world's best photos & videos</h3>
+                <p>Best memories online</p>
+            </div>
+        </div>
+    </div>
+</div>

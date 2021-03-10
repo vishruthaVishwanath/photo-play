@@ -1,0 +1,8 @@
+<div class="grid-display">
+<ul *ngIf="searchType=='photos'" class="Blog">
+  <li *ngFor="let data of searchData"><img *ngIf="data.src" src="{{data.src.tiny}}" alt="" width="280px" height="200px"></li>
+</ul>
+<ul *ngIf="searchType=='videos'" class="Blog">
+  <li *ngFor="let data of searchData"><img  *ngIf="data.image" src="{{data.image}}" alt="" width="280px" height="200px"></li>
+</ul>
+</div>

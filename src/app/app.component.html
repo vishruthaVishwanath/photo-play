@@ -1,0 +1,5 @@
+
+<app-banner (inputSearch)="searchReqData($event)"></app-banner>
+<app-navigation (dispTypecast)="typeReceived($event)"></app-navigation>
+<app-grid-display [searchData]="searchData" [searchType]="contentType"></app-grid-display>
+<router-outlet></router-outlet>

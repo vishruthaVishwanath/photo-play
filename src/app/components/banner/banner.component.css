@@ -1,0 +1,39 @@
+.inp-search{
+    width:fit-content;
+    margin:auto;
+}
+
+.input-bar {
+    bottom:30%
+  }
+ .input-bar input{
+    width:40%;
+    border-radius: 5px;
+  }
+
+  .cap-heading{
+    bottom:40%
+  }
+
+  .input-bar button{
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+
+  }
+
+ .logo{
+    right: 100%;
+    bottom: 70%;
+ }
+
+ .carousel-inner{
+     margin:auto;
+     width: 90%;
+ }
+ 
+
+ .back-img{
+    width: fit-content;
+    margin: auto;
+ }
